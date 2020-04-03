@@ -30,7 +30,6 @@ Plugin 'raimondi/delimitmate'
 Plugin 'bufexplorer.zip'
 Plugin 'TagHighlight'
 Plugin 'powerline/powerline'
-Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'universal-ctags/ctags'
 " Plugin 'valloric/youcompleteme'
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
@@ -39,7 +38,6 @@ autocmd FileType java setlocal omnifunc=javacomplete#Complete
 call vundle#end()            " required
 set tabstop=4
 set expandtab
-set cursorline
 autocmd FileType c setlocal foldmethod=syntax
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
